@@ -35,12 +35,15 @@
 /*........Home......*/
 
 #home {
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    background: url("../Img/hero-bg.jpg") top center no-repeat;
-    margin-top: 75px;
-    object-fit: cover;
 
+    background: url("../Img/pexels-jeffrey-czum-2501965.jpg");
+    margin-top: 6%;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 20px 0px 10px 0px;
+}
+#home h1{
+    padding-top: 50px;
 }
 
