@@ -1,0 +1,46 @@
+
+#header {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.logo, .logo:hover{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.me-auto {
+    position: relative;
+    text-transform: uppercase;
+}
+.link {
+    color: black;
+    margin-left: 70px;
+}
+.link:hover, link:focus{
+    color: red;
+}
+.active {
+    color: red;
+}
+
+
+/*........Home......*/
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background: url("../Img/hero-bg.jpg") top center no-repeat;
+    margin-top: 75px;
+    object-fit: cover;
+
+}
+
