@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 #header {
     background-color: whitesmoke;
     padding: 10px;
@@ -101,24 +101,85 @@
 }
 
 .properties .nav-tab {
-    padding: 10px;
-    margin: 5px;
-    border: 3px solid #8fc04e;
-    background-color: #8fc04e;
+    padding: 12px 20px;
+    margin: 5px 3px 0px;
+    border: 3px solid #5ea51d;
+    background-color: #5ea51d;
     color: #fff;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.properties .nav-tab.ash{
+    border: 3px solid #e0e0e0;
+    background-color: #e0e0e0;
+    color: #808080;
+    font-weight: 700;
 }
 
 .search-property {
     display: block;
-    border: 3px solid #8fc04e;
-    padding: 20px;
+    border: 0px solid #5ea51d;
+    padding-left: 20px;
+    height: 100px;
+    font-family: 'Roboto', sans-serif;
+
+    box-shadow: 0px 3px 4px 1px rgba(191,191,191,0.75);
+    -webkit-box-shadow: 0px 3px 4px 1px rgba(191,191,191,0.75);
+    -moz-box-shadow: 0px 3px 4px 1px rgba(191,191,191,0.75);
 }
+.search-property .form-group{
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #e8e8e8;
+    height: 100px;
+    margin-right: 0;
+}
+
+.search-property .form-group.border-none{
+    border-right-width: 0px;
+    border-right-style: solid;
+    border-right-color: #e8e8e8;
+    height: 100px;
+    margin-right: 0;
+}
+
 .search-property .form-group .form-control {
     border: none;
 }
 .search-property .form-group .form-control.btn{
-    background-color: #8fc04e;
+    background-color: #5ea51d;
+    height: 100px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+.search-property .form-group input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    color: #999999;
+    font-family: 'Roboto', sans-serif;
+}
 
+.search-property .form-group label{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.search-property .form-group .form-field {
+    display:flex;
+    color: #222222;
+}
+.search-property .form-group .form-field .fa-solid{
+    color: #999999;
+    margin-top: 10px;
+    padding-right: 0;
 }
 .properties {
     margin-bottom: 70px;
@@ -172,12 +233,17 @@
     color: gray;
 }
 
-.block-27 {
-    margin: auto;
-    display: inline-block;
+.block-27 ul{
+    list-style: none;
+    margin-bottom: 5%
 }
-.block-27 li {
+.block-27 li{
     display: inline-block;
-    padding-right: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 2px solid #4f4e4b;
+    margin-right: 20px;
+}
+.block-27 li .next{
     text-decoration: none;
 }
