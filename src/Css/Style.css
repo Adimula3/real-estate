@@ -120,3 +120,64 @@
     background-color: #8fc04e;
 
 }
+.properties {
+    margin-bottom: 70px;
+}
+
+.card {
+    width: 300px;
+   margin: 15px;
+}
+
+.display .card img{
+    height: 300px;
+    width: 300px;
+}
+
+.list-team .ml-2 {
+    font-size: 80%;
+    color: red;
+}
+
+.list-team span {
+    width: 70%;
+    font-size: 80%;
+    color: red;
+    text-align: right !important;
+}
+.location .sale{
+    font-size: 13px;
+    margin-left: 15px;
+    padding: 0 4px;
+    background: red;
+    color: white;
+}
+.location .rent{
+    font-size: 13px;
+    margin-left: 15px;
+    padding: 0 4px;
+    background: #5ea51d;
+    color: white;
+}
+.location i{
+    color: #5ea51d;
+    width: 20px;
+}
+.stretched-link {
+    text-decoration: none;
+    color: gray;
+}
+.stretched-link:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+.block-27 {
+    margin: auto;
+    display: inline-block;
+}
+.block-27 li {
+    display: inline-block;
+    padding-right: 20px;
+    text-decoration: none;
+}

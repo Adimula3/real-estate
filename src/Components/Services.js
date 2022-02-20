@@ -1,5 +1,6 @@
 import React from 'react';
 import {Button, Nav} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 
 function Services() {
@@ -71,6 +72,141 @@ function Services() {
                             </div>
                         </div>
                     </div>
+                </div>
+            </section>
+
+            <section className="display">
+                <div className="row row-cols-1 row-cols-md-4 g-4">
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <div className="list-team d-flex">
+                                        <h6 className="ml-2">Joseph doe</h6>
+                                        <span className="text-right">2 weeks ago</span>
+                                    </div>
+                                    <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
+
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <div className="list-team d-flex">
+                                        <h6 className="ml-2">Joseph doe</h6>
+                                        <span className="text-right">2 weeks ago</span>
+                                    </div>
+                                    <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
+
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <div className="list-team d-flex">
+                                        <h6 className="ml-2">Joseph doe</h6>
+                                        <span className="text-right">2 weeks ago</span>
+                                    </div>
+                                    <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
+
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <div className="list-team d-flex">
+                                        <h6 className="ml-2">Joseph doe</h6>
+                                        <span className="text-right">2 weeks ago</span>
+                                    </div>
+                                    <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
+
+                                </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <div className="list-team d-flex">
+                                    <h6 className="ml-2">Joseph doe</h6>
+                                    <span className="text-right">2 weeks ago</span>
+                                </div>
+                                <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
+
+                            <div className="card-body">
+                                <div className="list-team d-flex">
+                                    <h6 className="ml-2">Joseph doe</h6>
+                                    <span className="text-right">2 weeks ago</span>
+                                </div>
+                                <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
+
+                            <div className="card-body">
+                                <div className="list-team d-flex">
+                                    <h6 className="ml-2">Joseph doe</h6>
+                                    <span className="text-right">2 weeks ago</span>
+                                </div>
+                                <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card">
+                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
+
+                            <div className="card-body">
+                                <div className="list-team d-flex">
+                                    <h6 className="ml-2">Joseph doe</h6>
+                                    <span className="text-right">2 weeks ago</span>
+                                </div>
+                                <h3 className="card-title"><a href="#" className="stretched-link">Lagbalu Property</a></h3>
+                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row mt-5 te">
+                        <div className="col text-center">
+                            <div className="block-27">
+                                <ul>
+                                    <li><Link className="next" to="#">&lt;</Link></li>
+                                    <li><Link className="next active" to="">1</Link></li>
+                                    <li><Link className="next" to="#" >2</Link></li>
+                                    <li><Link className="next" to="#">3</Link></li>
+                                    <li><Link className="next" to="#">&gt;</Link></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
             </section>
