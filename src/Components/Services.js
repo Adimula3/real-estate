@@ -11,7 +11,7 @@ function Services() {
                     <div className="row">
                         <div className="col-md-12 ">
                             <Nav className="justify-content-center">
-                                    <Nav.Link className="nav-tab" href="">Buy Properties</Nav.Link>
+                                    <Nav.Link className="nav-tab ash" href="">Buy Properties</Nav.Link>
                                         <Nav.Link className="nav-tab" href="">Rent Properties</Nav.Link>
                             </Nav>
                         </div>
@@ -24,7 +24,7 @@ function Services() {
                                             <div className="form-group">
                                                 <label for="">Enter Keyword</label>
                                                 <div className="form-field">
-                                                    <div className="icon"><span className="fa fa search"></span> </div>
+                                                    <i className="fa-solid fa-magnifying-glass"></i>
                                                     <input type="text" className="form-control" placeholder="Enter keyword"></input>
                                                 </div>
                                             </div>
@@ -33,9 +33,9 @@ function Services() {
                                             <div className="form-group">
                                                 <label htmlFor="">Property Type</label>
                                                 <div className="form-field">
-                                                    <div className="icon"><span className="fa fa search"></span></div>
+                                                    <i className="fa-solid fa-angle-down"></i>
                                                     <input type="text" className="form-control"
-                                                           placeholder="Enter keyword"></input>
+                                                           placeholder="Residential"></input>
                                                 </div>
                                             </div>
                                         </div>
@@ -43,19 +43,19 @@ function Services() {
                                             <div className="form-group">
                                                 <label htmlFor="">Location</label>
                                                 <div className="form-field">
-                                                    <div className="icon"><span className="fa fa search"></span></div>
+                                                    <i className="fa-solid fa-location-dot"></i>
                                                     <input type="text" className="form-control"
-                                                           placeholder="Enter keyword"></input>
+                                                           placeholder="Search Location"></input>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md">
-                                            <div className="form-group">
+                                            <div className="form-group border-none">
                                                 <label htmlFor="">Price Range</label>
                                                 <div className="form-field">
-                                                    <div className="icon"><span className="fa fa search"></span></div>
+                                                    <i className="fa-solid fa-angle-down"></i>
                                                     <input type="text" className="form-control"
-                                                           placeholder="Enter keyword"></input>
+                                                           placeholder="$100"></input>
                                                 </div>
                                             </div>
                                         </div>
@@ -192,8 +192,9 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="row mt-5 te">
-                        <div className="col text-center">
+                </div>
+                    <div className="row text-center">
+                        <div className="col">
                             <div className="block-27">
                                 <ul>
                                     <li><Link className="next" to="#">&lt;</Link></li>
@@ -206,8 +207,6 @@ function Services() {
                             </div>
                         </div>
                     </div>
-
-                </div>
 
             </section>
 
