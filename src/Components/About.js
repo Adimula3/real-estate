@@ -6,6 +6,7 @@ function About(props) {
             <section className="about">
                 <div className="container">
 
+
                     <div className="row">
                         <div className="col-xl-5 col-lg-5">
                             <img src={require('../Img/michael-oxendine-GHCVUtBECuY-unsplash.jpg')} alt="" />

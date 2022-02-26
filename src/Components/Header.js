@@ -1,22 +1,29 @@
 import React from 'react';
 import {Nav, Navbar} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 
 function Header() {
     return (
 
-         <header id="header" className="fixed-top d-flex align-items-center">
-             <div className="container d-flex align-items-center">
-                 <Navbar.Brand className="logo" href="#">Estate</Navbar.Brand>
+        <header id="header" className="fixed-top d-flex align-items-center header-transparent">
+            <div className="container d-flex justify-content-between align-items-center">
 
-                 <Nav className="me-auto">
-                     <Nav.Link className="link active" href="#">Home</Nav.Link>
-                     <Nav.Link className="link" href="#">About</Nav.Link>
-                     <Nav.Link className="link" href="#">Services</Nav.Link>
-                     <Nav.Link className="link"  href="#">Contact</Nav.Link>
-                 </Nav>
-             </div>
-         </header>
+                <div className="logo">
+                    <h1 className="text-light"><a href="/"><span>Real-estate</span></a></h1>
+                </div>
+
+                <nav id="navbar" className="navbar">
+                    <ul>
+                        <li><Link className="active" to="/">Home</Link></li>
+                        <li><Link className="change" to="/About">About</Link></li>
+                        <li><Link className="change" to="/Services">Services</Link></li>
+                        <li><Link className="change" to="/Contact">Contact Us</Link></li>
+                    </ul>
+                    <i className="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+        </header>
     );
 }
 

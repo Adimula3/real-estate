@@ -4,6 +4,7 @@ import '../Components/Message'
 import Message from "./Message";
 import About from "./About";
 import Services from "./Services";
+import Contact from "./Contact";
 
 function Home() {
     return (
@@ -19,6 +20,7 @@ function Home() {
             <Message />
             <About />
             <Services />
+            <Contact />
         </>
 
     );

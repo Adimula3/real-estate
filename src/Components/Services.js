@@ -8,6 +8,10 @@ function Services() {
         <div>
             <section className="properties">
                 <div className="container">
+                    <div className="section-title">
+                        <h2>Services</h2>
+                    </div>
+
                     <div className="row">
                         <div className="col-md-12 ">
                             <Nav className="justify-content-center">
