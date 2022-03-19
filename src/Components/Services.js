@@ -1,12 +1,12 @@
 import React from 'react';
-import {Button, Nav} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 
 function Services() {
     return (
         <div>
-            <section className="properties">
+            <section className="properties" id="service">
                 <div className="container-fluid">
                     <div className="section-title">
                         <h2>Services</h2>

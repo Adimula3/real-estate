@@ -1,6 +1,5 @@
 import React from 'react';
-import {Nav, Navbar} from "react-bootstrap";
-import {Link} from "react-router-dom";
+
 
 
 function Header() {
@@ -15,10 +14,10 @@ function Header() {
 
                 <nav id="navbar" className="navbar">
                     <ul>
-                        <li><Link className="active" to="/">Home</Link></li>
-                        <li><Link className="change" to="/About">About</Link></li>
-                        <li><Link className="change" to="/Services">Services</Link></li>
-                        <li><Link className="change" to="/Contact">Contact Us</Link></li>
+                        <li><a className="active" href="/">Home</a></li>
+                        <li><a className="change" href="#about">About</a></li>
+                        <li><a className="change" href="/#service">Services</a></li>
+                        <li><a className="change" href="/#Contact">Contact Us</a></li>
                     </ul>
                     <i className="bi bi-list mobile-nav-toggle"></i>
                 </nav>

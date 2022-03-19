@@ -1,9 +1,9 @@
 import React from 'react';
 
-function About(props) {
+function About() {
     return (
         <div>
-            <section className="about">
+            <section className="about" id="about">
                 <div className="container">
 
 
