@@ -7,7 +7,7 @@ function Services() {
     return (
         <div>
             <section className="properties">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="section-title">
                         <h2>Services</h2>
                     </div>
@@ -24,7 +24,7 @@ function Services() {
                             <div className="tab-content">
                                 <form action="" className="search-property">
                                     <div className="row">
-                                        <div className="col-md d-flex">
+                                        <div className="col-lg-2">
                                             <div className="form-group">
                                                 <label for="">Enter Keyword</label>
                                                 <div className="form-field">
@@ -33,7 +33,7 @@ function Services() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md">
+                                        <div className="col-lg-2 ">
                                             <div className="form-group">
                                                 <label htmlFor="">Property Type</label>
                                                 <div className="form-field">
@@ -43,7 +43,7 @@ function Services() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md">
+                                        <div className="col-lg-2">
                                             <div className="form-group">
                                                 <label htmlFor="">Location</label>
                                                 <div className="form-field">
@@ -53,8 +53,8 @@ function Services() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md">
-                                            <div className="form-group border-none">
+                                        <div className="col-lg-2 border-none">
+                                            <div className="form-group">
                                                 <label htmlFor="">Price Range</label>
                                                 <div className="form-field">
                                                     <i className="fa-solid fa-angle-down"></i>
@@ -63,8 +63,8 @@ function Services() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md">
-                                            <div className="form-group">
+                                        <div className="col-lg-2 ">
+                                            <div className="form-group button">
                                                 <div className="form-field">
                                                     <input type="submit" value="search" className="form-control btn btn-primary"
                                                     ></input>
@@ -79,9 +79,9 @@ function Services() {
                 </div>
             </section>
 
-            <section className="display">
-                <div className="row row-cols-1 row-cols-md-4 g-4">
-                    <div className="col">
+            <section className="container-fluid display">
+                <div className="row">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -95,7 +95,8 @@ function Services() {
                                 </div>
                         </div>
                     </div>
-                    <div className="col">
+
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -109,7 +110,7 @@ function Services() {
                                 </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -123,7 +124,7 @@ function Services() {
                                 </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
@@ -137,7 +138,7 @@ function Services() {
                                 </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                             <div className="card-body">
@@ -151,7 +152,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
@@ -166,7 +167,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6">
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
@@ -181,7 +182,7 @@ function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-lg-3 col-6" >
                         <div className="card">
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
