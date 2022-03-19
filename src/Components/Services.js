@@ -89,7 +89,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                                 </div>
@@ -104,7 +104,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                                 </div>
@@ -118,7 +118,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                                 </div>
@@ -132,7 +132,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                                 </div>
@@ -146,7 +146,7 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                             </div>
@@ -161,7 +161,7 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                             </div>
@@ -176,7 +176,7 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                             </div>
@@ -191,7 +191,7 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                             </div>
