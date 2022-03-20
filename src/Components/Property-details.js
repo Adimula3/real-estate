@@ -10,7 +10,7 @@ function PropertyDetails() {
                     <img
                         className="d-block w-100"
                         src="../Img/pexels.jpg"
-                        alt="First slide"
+                        alt="First slid"
                     />
 
                 </Carousel.Item>
