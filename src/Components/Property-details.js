@@ -1,22 +1,23 @@
-import React from 'react';
+import React ,{useState} from 'react';
 
 function PropertyDetails() {
+    const [display, setDisplay] = useState(false);
     return (
         <div>
             <section id="property-details" className="property-details">
-                <div className="container">
 
                     <div className="row">
-                        <div className="col-xl-6 col-lg-7">
+                        <div className="col-xl-6 col-lg-7 property-image">
                             <img src={require("../Img/pexels.jpg")} className="img-fluid" alt=""/>
                         </div>
                         <div className="col-xl-6 col-lg-5">
                             <div className="property-info">
-                                <h3>Poperty Information</h3>
+                                <h3>Property Information</h3>
                                 <ul>
-                                    <li><strong>Location</strong>:IKOTUN</li>
-                                    <li><strong>Status</strong>:SALE</li>
-                                    <li><strong>Agent</strong>:OLANREWAJU</li>
+                                    <li><span className="title">Location:</span>IKOTUN</li>
+                                    <li><span className="title">Status:</span>SALE</li>
+                                    <li><span className="title">Agent:</span>OLANREWAJU</li>
+                                    <li><span className="title">Price:</span> &#8358; 567,000</li>
                                 </ul>
                             </div>
                             <div className="property-description">
@@ -32,11 +33,35 @@ function PropertyDetails() {
                                 </p>
                             </div>
                             <div className="contact-agent">
-                                <button type="submit">Contact Agent</button>
+                                <button type="submit"  onClick={() => {
+                                    setDisplay((prevState) => !prevState)
+                                }}>Contact Agent</button>
                             </div>
+
+                            {display ? (
+                                <div className="contact-buttons">
+                                    <ul>
+                                        <li>
+                                            <a href="https://" className="btn btn-md btn-whatsapp"> WhatsApp <i className="fab fa-whatsapp"></i> </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://" className="btn btn-md btn-instagram"> Instagram <i className="fab fa-instagram"></i> </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://" className="btn btn-md btn-twitter"> Twitter <i className="fab fa-twitter"></i> </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="https://" className="btn btn-md btn-facebook"> Facebook <i className="fab fa-facebook"></i> </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            ) : (<p className="margin-break"></p> )}
                         </div>
                     </div>
-                </div>
+
             </section>
 
         </div>
