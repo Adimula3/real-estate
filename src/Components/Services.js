@@ -92,7 +92,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property">Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                                 </div>
@@ -104,63 +104,63 @@ function Services() {
                     </div>
 
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <div className="list-team d-flex">
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="property" className="stretched-link" >Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property"  >Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                                 </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <div className="list-team d-flex">
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                                 </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <div className="list-team d-flex">
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                                 </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <div className="list-team d-flex">
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
                             <div className="card-body">
@@ -168,14 +168,14 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
                             <div className="card-body">
@@ -183,14 +183,14 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
 
                             </div>
                         </div>
                     </div>
                     <div className="col-lg-3 col-6" >
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
 
                             <div className="card-body">
@@ -198,7 +198,7 @@ function Services() {
                                     <h6 className="ml-2">Joseph doe</h6>
                                     <span className="text-right">2 weeks ago</span>
                                 </div>
-                                <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
                                 <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                             </div>

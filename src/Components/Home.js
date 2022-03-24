@@ -5,7 +5,6 @@ import Message from "./Message";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import PropertyDetails from "./Property-details";
 
 function Home() {
     return (

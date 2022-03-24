@@ -7,7 +7,6 @@ export default function HousingModal({open, children, onClose}) {
         <div>
             <div className="Modal-one">
                 <div className="Overlay-styles" />
-
                 <div className="Qv-Modal-styles">
                     <div className="Close-button">
                         <button onClick={onClose}  className="btn btn-md btn-primary" ><i className="fas fa-times"></i></button>
