@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Nav} from "react-bootstrap";
 import {Link} from "react-router-dom";
+import HousingModal from "./HousingModal";
+import PropertyDetails from "./Property-details";
 
 
 function Services() {
+    const [isQuickView, setQuickView] = useState(false);
     return (
         <div>
             <section className="properties" id="service">
@@ -82,7 +85,7 @@ function Services() {
             <section className="container-fluid display">
                 <div className="row">
                     <div className="col-lg-3 col-6">
-                        <div className="card">
+                        <div className="card" onClick={()=> {setQuickView(true)}}>
                             <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
                                 <div className="card-body">
                                     <div className="list-team d-flex">
@@ -94,6 +97,10 @@ function Services() {
 
                                 </div>
                         </div>
+                        {/** Modals Here */}
+                        <HousingModal open={isQuickView} onClose={() => setQuickView(false)}>
+                            <PropertyDetails />
+                        </HousingModal>
                     </div>
 
                     <div className="col-lg-3 col-6">
@@ -104,7 +111,7 @@ function Services() {
                                         <h6 className="ml-2">Joseph doe</h6>
                                         <span className="text-right">2 weeks ago</span>
                                     </div>
-                                    <h3 className="card-title"><a href="property" className="stretched-link">Lagbalu Property</a></h3>
+                                    <h3 className="card-title"><a href="property" className="stretched-link" >Lagbalu Property</a></h3>
                                     <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
 
                                 </div>

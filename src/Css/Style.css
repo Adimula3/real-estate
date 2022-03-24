@@ -837,7 +837,72 @@
     }
 
 
+}
 
+/* Property-details...*/
 
+.property-details .property-info {
+    padding-right: 50px;
+}
+.property-info h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.property-info ul li {
+    margin: 20px;
+}
+.contact-agent button {
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #8fc04e;
+    color: white;
+    border: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+/** MODAL_STYLES FOR Quick View */
+.Modal-one{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.Qv-Modal-styles {
+    position: fixed;
+    top: 12%;
+    left: 15%;
+    right: 0%;
+    bottom: 1%;
+    margin: auto;
+    justify-content: center;
+    transform: translate(-10%, -10%);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0px 0px;
+    width: 80%;
+    z-index: 1000;
+    max-height: 100%;
 
 }
+
+.Overlay-styles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+Qv-Modal-styles .Close-button .fas{
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+

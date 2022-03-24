@@ -22,7 +22,7 @@ function Home() {
             <About />
             <Services />
             <Contact />
-            <PropertyDetails />
+
         </>
 
     );
