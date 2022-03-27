@@ -1,0 +1,92 @@
+{
+  "houses": [
+    {
+      "propertyId": 1,
+      "Id": 1,
+      "url": "https://i.ibb.co/pQWCC6N/pexels.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 2,
+      "Id": 2,
+      "url": "https://i.ibb.co/pbP0R8N/Sidekix-media-lrk0l9w8r-I0-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 3,
+      "Id": 3,
+      "url": "https://i.ibb.co/bRpwmQ2/Pexels-zachary-debottis-1838640.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 4,
+      "Id": 4,
+      "url": "https://i.ibb.co/N9JNbgf/Michael-oxendine-GHCVUt-BECu-Y-unsplash-1.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 5,
+      "Id": 5,
+      "url": "https://i.ibb.co/JFkJS6L/Inside-weather-Uxqlfigh6o-E-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 6,
+      "Id": 6,
+      "url": "https://i.ibb.co/TbjcgHz/Pixasquare-4ojhpg-Kp-S68-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 7,
+      "Id": 7,
+      "url": "https://i.ibb.co/fGjwMtN/R-architecture-2g-Dwl-Iim3-Uw-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 8,
+      "Id": 8,
+      "url": "https://i.ibb.co/B49vHw5/Ralph-ravi.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 9,
+      "Id": 9,
+      "url": "https://i.ibb.co/8BfL184/Ravi-kayden-m-R1-CIDdu-GLc-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 10,
+      "Id": 10,
+      "url": "https://i.ibb.co/nnywNCT/Sidekix-media-lrk0l9w8r-I0-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    },
+    {
+      "propertyId": 11,
+      "Id": 11,
+      "url": "https://i.ibb.co/9pHm5tn/Stephan-bechert-y-FV39g6-AZ5o-unsplash.jpg",
+      "status": "sale",
+      "location": "ikotun",
+      "AgentName": "joseph"
+    }
+  ]
+}

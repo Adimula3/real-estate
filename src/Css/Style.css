@@ -984,3 +984,25 @@ Qv-Modal-styles .Close-button .fas{
 }
 
 
+.pagination {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    cursor: pointer;
+}
+
+.pagination a{
+    padding: 7px;
+    border: 1px solid #8fc04e;
+    color: #8fc04e;
+}
+
+.pagination__link {
+    font-weight: bold;
+    list-style: none;
+}
+.pagination_link--active {
+    color: white;
+    background: #8fc04e;
+}
+
