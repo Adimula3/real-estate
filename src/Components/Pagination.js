@@ -41,7 +41,23 @@ function Pagination() {
     const pageCount = Math.ceil(data.length / PER_PAGE);
     return (
         <div>
-            {currentPageData}
+
+            {data.map((data) => {
+                return <div className="col-lg-3 col-6">
+                    <div className="card">
+                        <img src={data.url} className="card-img-top" alt=""/>
+                        <div className="card-body">
+                            <div className="list-team d-flex">
+                                <h6 className="ml-2">Joseph doe</h6>
+                                <span className="text-right">2 weeks ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>;
+
+                }
+
+            )}
             
             <ReactPaginate
             previousLabel={"<- Previous"}
