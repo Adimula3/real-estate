@@ -30,7 +30,7 @@ function Pagination() {
 
     // 0, 10, 20, 30......//
     const offset = currentPage * PER_PAGE;
-    // console.log("offset", offset);
+    // console.log("offset", offset)
 
     const currentPageData = data
         .slice(offset, offset + PER_PAGE)
