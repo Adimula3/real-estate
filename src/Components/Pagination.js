@@ -1,7 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import ReactPaginate from "react-paginate";
-import HousingModal from "./HousingModal";
-import PropertyDetails from "./Property-details";
 import HousingCard from "./HousingCard";
 
 
@@ -9,7 +7,6 @@ const PER_PAGE = 8;
 function Pagination() {
     const [currentPage, setCurrentPage] = useState(0);
     const [data, setData] = useState([]);
-    const [isQuickView, setQuickView] = useState(false);
 
 
     useEffect(() => {
