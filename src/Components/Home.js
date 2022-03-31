@@ -5,7 +5,7 @@ import Message from "./Message";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
-import Pagination from "./Pagination";
+
 
 function Home() {
     return (
