@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 
-function PropertyDetails({data}) {
+function PropertyDetails({res, index}) {
     const [display, setDisplay] = useState(false);
     return (
         <div>
@@ -8,15 +8,15 @@ function PropertyDetails({data}) {
 
                     <div className="row">
                         <div className="col-xl-6 col-lg-7 property-image">
-                            <img src={data.url} className="img-fluid" alt=""/>
+                            <img key={index} src={res.url} className="img-fluid" alt=""/>
                         </div>
                         <div className="col-xl-6 col-lg-5">
                             <div className="property-info">
                                 <h3>Property Information</h3>
                                 <ul>
-                                    <li><span className="title">Location:</span>{data.location}</li>
-                                    <li><span className="title">Status:</span>{data.status.toUpperCase()}</li>
-                                    <li><span className="title">Agent:</span>{data.AgentName}</li>
+                                    <li><span className="title">Location:</span>{res.location}</li>
+                                    <li><span className="title">Status:</span>SALE</li>
+                                    <li><span className="title">Agent:</span>{res.AgentName}</li>
                                     <li><span className="title">Price:</span> &#8358; 567,000</li>
                                 </ul>
                             </div>

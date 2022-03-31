@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ReactPaginate from "react-paginate";
 import HousingModal from "./HousingModal";
 import PropertyDetails from "./Property-details";
+import HousingCard from "./HousingCard";
 
 
 const PER_PAGE = 8;
@@ -38,26 +39,9 @@ function Pagination() {
     const currentPageData = data
         .slice(offset, offset + PER_PAGE)
         .map((res, index) =>
-            <div className="row">
-            <div className="col-lg-3 col-6">
-            <div className="card" onClick={() => {setQuickView(true)}}>
-                <img key={index} src={res.url} />
-                <div className="card-body">
-                    <div className="list-team d-flex">
-                        <h6 className="ml-2">{res.AgentName}</h6>
-                        <span className="text-right">2 weeks ago</span>
-                    </div>
-                    <h3 className="card-title"><a href="property" >{res.AgentName} Property</a></h3>
-                    <span className="location"><i className="fa-solid fa-location-dot"></i>{res.location}<span className="sale">Sale</span> </span>
-
-                </div>
-            </div>
-        </div>
-                {/** Modals Here */}
-                <HousingModal open={isQuickView} onClose={() => setQuickView(false)}>
-                    <PropertyDetails data={data}/>
-                </HousingModal>
-            </div> );
+            <div className="col-lg-3 col-6 display-card">
+                <HousingCard key={index} res={res} />
+            </div>);
 
       console.log("currentPage", currentPageData);
 
@@ -65,8 +49,10 @@ function Pagination() {
     const pageCount = Math.ceil(data.length / PER_PAGE);
     return (
 
-        <div>
+        <section className="container-fluid display">
+            <div className="row">
             {currentPageData}
+            </div>
 
             <ReactPaginate
             previousLabel={"<- Previous"}
@@ -80,7 +66,7 @@ function Pagination() {
                 activeClassName={"pagination_link--active"}
                 />
 
-        </div>
+        </section>
     );
 }
 
