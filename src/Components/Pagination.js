@@ -52,7 +52,7 @@ function Pagination() {
         </div>
                 {/** Modals Here */}
                 <HousingModal open={isQuickView} onClose={() => setQuickView(false)}>
-                    <PropertyDetails />
+                    <PropertyDetails data={data}/>
                 </HousingModal>
             </div> );
 
