@@ -22,7 +22,6 @@ function Home() {
             <About />
             <Services />
             <Contact />
-            <Pagination />
 
         </>
 

@@ -3,10 +3,11 @@ import {Nav} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import HousingModal from "./HousingModal";
 import PropertyDetails from "./Property-details";
+import Pagination from "./Pagination";
 
 
 function Services() {
-    const [isQuickView, setQuickView] = useState(false);
+
     return (
         <div>
             <section className="properties" id="service">
@@ -83,143 +84,7 @@ function Services() {
             </section>
 
             <section className="container-fluid display">
-                <div className="row">
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <div className="list-team d-flex">
-                                        <h6 className="ml-2">Joseph doe</h6>
-                                        <span className="text-right">2 weeks ago</span>
-                                    </div>
-                                    <h3 className="card-title"><a href="property">Lagbalu Property</a></h3>
-                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
-
-                                </div>
-                        </div>
-                        {/** Modals Here */}
-                        <HousingModal open={isQuickView} onClose={() => setQuickView(false)}>
-                            <PropertyDetails />
-                        </HousingModal>
-                    </div>
-
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <div className="list-team d-flex">
-                                        <h6 className="ml-2">Joseph doe</h6>
-                                        <span className="text-right">2 weeks ago</span>
-                                    </div>
-                                    <h3 className="card-title"><a href="property"  >Lagbalu Property</a></h3>
-                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
-
-                                </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <div className="list-team d-flex">
-                                        <h6 className="ml-2">Joseph doe</h6>
-                                        <span className="text-right">2 weeks ago</span>
-                                    </div>
-                                    <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
-
-                                </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
-                                <div className="card-body">
-                                    <div className="list-team d-flex">
-                                        <h6 className="ml-2">Joseph doe</h6>
-                                        <span className="text-right">2 weeks ago</span>
-                                    </div>
-                                    <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                    <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
-
-                                </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..." />
-                            <div className="card-body">
-                                <div className="list-team d-flex">
-                                    <h6 className="ml-2">Joseph doe</h6>
-                                    <span className="text-right">2 weeks ago</span>
-                                </div>
-                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
-
-                            <div className="card-body">
-                                <div className="list-team d-flex">
-                                    <h6 className="ml-2">Joseph doe</h6>
-                                    <span className="text-right">2 weeks ago</span>
-                                </div>
-                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6">
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
-
-                            <div className="card-body">
-                                <div className="list-team d-flex">
-                                    <h6 className="ml-2">Joseph doe</h6>
-                                    <span className="text-right">2 weeks ago</span>
-                                </div>
-                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="sale">Sale</span> </span>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-3 col-6" >
-                        <div className="card" onClick={()=> {setQuickView(true)}}>
-                            <img src={require("../Img/pexels.jpg")} className="card-img-top" alt="..."/>
-
-                            <div className="card-body">
-                                <div className="list-team d-flex">
-                                    <h6 className="ml-2">Joseph doe</h6>
-                                    <span className="text-right">2 weeks ago</span>
-                                </div>
-                                <h3 className="card-title"><a href="property" >Lagbalu Property</a></h3>
-                                <span className="location"><i className="fa-solid fa-location-dot"></i>Ikotun<span className="rent">Rent</span> </span>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <div className="row text-center">
-                        <div className="col">
-                            <div className="block-27">
-                                <ul>
-                                    <li><Link className="next" to="#">&lt;</Link></li>
-                                    <li><Link className="next active" to="">1</Link></li>
-                                    <li><Link className="next" to="#" >2</Link></li>
-                                    <li><Link className="next" to="#">3</Link></li>
-                                    <li><Link className="next" to="#">&gt;</Link></li>
-
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
+                <Pagination />
             </section>
 
         </div>
