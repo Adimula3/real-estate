@@ -44,9 +44,12 @@ function Pagination() {
                 <img key={index} src={res.url} />
                 <div className="card-body">
                     <div className="list-team d-flex">
-                        <h6 className="ml-2">Joseph doe</h6>
+                        <h6 className="ml-2">{res.AgentName}</h6>
                         <span className="text-right">2 weeks ago</span>
                     </div>
+                    <h3 className="card-title"><a href="property" >{res.AgentName} Property</a></h3>
+                    <span className="location"><i className="fa-solid fa-location-dot"></i>{res.location}<span className="sale">Sale</span> </span>
+
                 </div>
             </div>
         </div>
