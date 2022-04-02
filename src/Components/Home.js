@@ -5,6 +5,9 @@ import Message from "./Message";
 import About from "./About";
 import Services from "./Services";
 import Contact from "./Contact";
+import Crud from "./Crud";
+import '../Css/crud.css';
+
 
 
 function Home() {
@@ -22,6 +25,7 @@ function Home() {
             <About />
             <Services />
             <Contact />
+            <Crud />
 
         </>
 
