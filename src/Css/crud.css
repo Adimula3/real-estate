@@ -1,24 +1,7 @@
 
-
-.form-row {
-    display: block;
-    margin: 20px;
-    border-bottom: 3px solid #e5e5e5;
-    padding: 10px;
-
+.form-group {
+    margin-bottom: 20px;
 }
-.input-group {
-    margin: 20px;
-    width: 50%;
-    line-height: 38px;
-    display: inline-block;
-}
-
-.btn {
+.crud {
     background: #8fc04e;
-    line-height: 50px;
-    color: white;
-}
-.input-group textarea {
-
 }
