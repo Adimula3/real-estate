@@ -3,5 +3,56 @@
     margin-bottom: 20px;
 }
 .crud {
-    background: #8fc04e;
+    background: #ffffff;
+    margin: 5%;
+}
+.crud .Form-box{
+    padding: 40px 50px;
+    background: #fbfff5;
+}
+.crud .Form-box h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.crud label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.crud .form-group input{
+    border: 2px solid #8fc04e;
+    border-radius: 1px;
+    height: 40px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+.crud .form-group select{
+    border: 2px solid #8fc04e;
+    border-radius: 1px;
+    height: 40px;
+}
+
+.crud .form-group textarea{
+    border: 2px solid #8fc04e;
+    border-radius: 1px;
+    height: 100px;
+}
+.crud .Form-box .form-group .btn{
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 1px;
+    color: #ffffff;
+    width: 80%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    font-weight: 600;
+
+    box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
 }
