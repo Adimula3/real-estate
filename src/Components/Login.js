@@ -13,7 +13,7 @@ function Login() {
                        <h2>Login </h2>
                        <ol>
                            <li><Link className="change" to="/">Home</Link></li>
-                           <li><Link className="change" to="/">Log in</Link></li>
+                           <li><Link className="change" to="/Login">Log in</Link></li>
                        </ol>
                    </div>
 
