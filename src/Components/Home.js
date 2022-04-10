@@ -7,6 +7,8 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Crud from "./Crud";
 import '../Css/crud.css';
+import Login from "./Login";
+import Register from "./Register";
 
 
 
@@ -25,7 +27,6 @@ function Home() {
             <About />
             <Services />
             <Contact />
-            <Crud />
 
         </>
 

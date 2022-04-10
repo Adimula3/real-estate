@@ -50,6 +50,14 @@
     text-decoration: none;
 }
 
+.navbar .sign-up {
+    text-decoration: none;
+    border: 1px solid #8fc04e;
+    padding: 10px;
+    background: #8fc04e;
+    color: white;
+}
+
 /**
 * Mobile Navigation
 */
@@ -1003,3 +1011,34 @@ Qv-Modal-styles .Close-button .fas{
     background: #8fc04e;
 }
 
+
+/**....LOGIN.....*/
+.why {
+    margin-bottom: 30px;
+}
+.why .box {
+    padding: 30px 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+}
+.why .box h5 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #353535;
+}
+.why .box p {
+    color: #919191;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.why .box:hover {
+    background: #8fc04e;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+.why .box:hover span, .why .box:hover h5, .why .box:hover p {
+    color: #fff;
+}
