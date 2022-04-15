@@ -2,18 +2,20 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import {Button, Col, Form, Row} from "react-bootstrap";
 import '../Css/login.css';
+import Header from "./Header";
 
 function Register() {
     return (
         <div>
+        <Header />
             <section className="breadcrumbs">
                 <div className="container">
 
                     <div className="d-flex justify-content-between align-items-center">
-                        <h2>Login </h2>
+                        <h2>Register </h2>
                         <ol>
                             <li><Link className="change" to="/">Home</Link></li>
-                            <li><Link className="change" to="/">Register</Link></li>
+                            <li><Link className="change" to="/Register">Register</Link></li>
                         </ol>
                     </div>
 
@@ -32,8 +34,8 @@ function Register() {
                         </ul>
                     </Col>
                     <Col md={5}>
-                        <Link to="/Login" className="down-active text-secondary">Login</Link>
-                        <Link to="/Register" className="text-secondary">Register</Link>
+                        <Link to="/Login" className=" text-secondary">Login</Link>
+                        <Link to="/Register" className="down-active text-secondary">Register</Link>
                         <Form className="form-box">
                             <div className="form-group" >
                                 <Row>
