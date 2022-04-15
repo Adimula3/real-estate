@@ -8,6 +8,9 @@ import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
 import Dashboard from "./Components/Dashboard/Dashboard";
+import Messages from "./Components/Dashboard/Messages";
+import Welcome from "./Components/Dashboard/Welcome";
+
 
 function App() {
   return (
@@ -22,6 +25,8 @@ function App() {
                       <Route  path="/Login" element={<Login />} />
                       <Route  path="/Register" element={<Register />} />
                       <Route path="/Dashboard" element={<Dashboard />}/>
+                      <Route path="/Dashboard/Messages" element={<Messages />}/>
+                      <Route path="/Dashboard/Welcome" element={<Welcome />} />
                   </Routes>
               </div>
           </Router>

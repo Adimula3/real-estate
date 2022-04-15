@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ReactPaginate from "react-paginate";
 import HousingCard from "./HousingCard";
+import Message from "./Message";
 
 
 const PER_PAGE = 8;
@@ -38,6 +39,7 @@ function Pagination() {
         .map((res, index) =>
             <div className="col-lg-3 col-6 display-card">
                 <HousingCard key={index} res={res} />
+                <Message res={res} />
             </div>);
 
       console.log("currentPage", currentPageData);

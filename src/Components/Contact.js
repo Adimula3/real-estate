@@ -75,12 +75,12 @@ function Contact() {
                                                   name="message"
                                                   rows="5"
                                                   id="message"
-                                                  placeholder="Message"
+                                                  placeholder="Messages"
                                                   required>
                                         </textarea>
                                 </div>
                                 <div className="text-center">
-                                    <button type="submit">Send Message</button>
+                                    <button type="submit">Send Messages</button>
                                 </div>
                             </form>
                         </div>
