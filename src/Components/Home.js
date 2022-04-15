@@ -9,6 +9,7 @@ import Crud from "./Crud";
 import '../Css/crud.css';
 import Login from "./Login";
 import Register from "./Register";
+import Header from "./Header";
 
 
 
@@ -23,6 +24,7 @@ function Home() {
                 </div>
             </div>
         </div>
+            <Header />
             <Message />
             <About />
             <Services />

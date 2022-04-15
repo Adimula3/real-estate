@@ -7,6 +7,7 @@ import './Css/Style.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Login from "./Components/Login";
 import Register from "./Components/Register";
+import Dashboard from "./Components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -14,13 +15,13 @@ function App() {
       <>
           <Router>
               <div className="App">
-                  <Header/>
               </div>
               <div className='content'>
                   <Routes>
                       <Route exact path="/" element={<Home />} />
                       <Route  path="/Login" element={<Login />} />
                       <Route  path="/Register" element={<Register />} />
+                      <Route path="/Dashboard" element={<Dashboard />}/>
                   </Routes>
               </div>
           </Router>

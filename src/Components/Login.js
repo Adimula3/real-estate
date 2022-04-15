@@ -2,10 +2,19 @@ import React from 'react';
 import {Button, Col, Form, Row} from "react-bootstrap";
 import '../Css/login.css'
 import {Link} from "react-router-dom";
+import {Navigate, useNavigate} from "react-router";
+import Header from "./Header";
 
 function Login() {
+
+    const navigate = useNavigate();
+
+       function OnSubmit() {
+           navigate("/Dashboard");
+       }
     return (
        <div>
+           <Header />
            <section className="breadcrumbs">
                <div className="container">
 
@@ -13,7 +22,7 @@ function Login() {
                        <h2>Login </h2>
                        <ol>
                            <li><Link className="change" to="/">Home</Link></li>
-                           <li><Link className="change" to="/">Log in</Link></li>
+                           <li><Link className="change" to="/Login">Log in</Link></li>
                        </ol>
                    </div>
 
@@ -34,7 +43,7 @@ function Login() {
                    <Col md={5}>
                        <Link to="/Login" className="down-active text-secondary">Login</Link>
                        <Link to="/Register" className="text-secondary">Register</Link>
-                       <Form className="form-box">
+                       <Form className="form-box" onSubmit={OnSubmit}>
                            <div className="form-group" >
                                <Row>
                                    <Col md={12}>
