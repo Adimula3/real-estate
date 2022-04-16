@@ -1,8 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
 import {Button, Col, Form, Row} from "react-bootstrap";
-import '../Css/login.css';
-import Header from "./Header";
+import '../styles/login.css';
+import Header from "../component/Header";
 
 function Register() {
     return (

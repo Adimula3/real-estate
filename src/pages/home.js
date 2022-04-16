@@ -1,12 +1,11 @@
 import React from 'react';
-import '../Css/Style.css'
-import '../Components/Message'
-import Message from "./Message";
-import About from "./About";
-import Services from "./Services";
-import Contact from "./Contact";
-import '../Css/crud.css';
-import Header from "./Header";
+import '../styles/style.css'
+import Message from "./message";
+import About from "./about";
+import Services from "./services";
+import Contact from "./contact";
+import '../styles/crud.css';
+import Header from "../component/Header";
 
 
 

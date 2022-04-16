@@ -10,7 +10,7 @@ function About() {
 
                     <div className="row">
                         <div className="col-xl-5 col-lg-5 col-md-6">
-                            <img src={require('../Img/michael-oxendine-GHCVUtBECuY-unsplash.jpg')} alt="" />
+                            <img src={require('../assets/Img/michael-oxendine-GHCVUtBECuY-unsplash.jpg')} alt="" />
                         </div>
 
                         <div className="col-xl-7 col-lg-7 col-md-6 d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
@@ -40,7 +40,7 @@ function About() {
                                      </div>
                                  </div>
                             <div className="new-img">
-                                <img src={require('../Img/sidekix-media-lrk0l9w8rI0-unsplash.jpg')} alt="words here" height={50}/>
+                                <img src={require('../assets/Img/sidekix-media-lrk0l9w8rI0-unsplash.jpg')} alt="words here" height={50}/>
                             </div>
 
                         </div>

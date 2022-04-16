@@ -1,16 +1,16 @@
 import React from 'react';
 import {Button, Col, Form, Row} from "react-bootstrap";
-import '../Css/login.css'
+import '../styles/login.css'
 import {Link} from "react-router-dom";
 import {useNavigate} from "react-router";
-import Header from "./Header";
+import Header from "../component/Header";
 
 function Login() {
 
     const navigate = useNavigate();
 
        function OnSubmit() {
-           navigate("/Dashboard");
+           navigate("/dashboard");
        }
     return (
        <div className="Login-section">

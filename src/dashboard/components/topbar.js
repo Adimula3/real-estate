@@ -1,6 +1,6 @@
 import {Col, Dropdown, Row} from "react-bootstrap";
 import React from "react";
-import Avatar from "../../../Img/01.jpg"
+import Avatar from "../../assets/Img/01.jpg"
 import DropdownToggle from "react-bootstrap/DropdownToggle";
 import DropdownMenu from "react-bootstrap/DropdownMenu";
 import DropdownItem from "react-bootstrap/DropdownItem";
@@ -29,6 +29,9 @@ const TopBar = () => {
                                   </div>
                               </div>
                           </Col>
+
+
+
                       </Row>
                   </div>
               </div>

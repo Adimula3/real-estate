@@ -40,7 +40,7 @@ const ListingProperties = () => {
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td><img src=".../Img/pexels.jpg" alt=""/>
+                                                        <td><img src="../assets/Img" alt=""/>
                                                             <div className="property-info d-table">
                                                                 <h5 className="text-secondary">Apolo Family Appartment</h5><span className="font-14"><i className="fas fa-map-marker-alt text-primary font-13"></i> Avenue South Burlington, Los Angles</span>
                                                                 <div className="price mt-3"><span className="text-primary">$212,000</span> <span>/ Fixed Amount</span>

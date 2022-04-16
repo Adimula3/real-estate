@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import ReactPaginate from "react-paginate";
-import HousingCard from "./HousingCard";
-import Message from "./Message";
+import HousingCard from "./housingCard";
+import Message from "./message";
 
 
 const PER_PAGE = 8;

@@ -1,6 +1,6 @@
 
 import {Nav} from "react-bootstrap";
-import Pagination from "./Pagination";
+import Pagination from "./pagination";
 
 
 function Services() {

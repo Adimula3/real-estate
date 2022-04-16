@@ -1,5 +1,5 @@
-import HousingModal from "./HousingModal";
-import PropertyDetails from "./Property-details";
+import HousingModal from "./housingModal";
+import PropertyDetails from "./propertyDetails";
 import React ,{useState} from "react";
 
 const HousingCard = ({res, key}) => {

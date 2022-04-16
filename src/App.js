@@ -1,25 +1,25 @@
 import React from "react";
 import './App.css';
-import Home from "./Components/Home";
+import Home from "./pages/home";
 import './App.css'
-import './Css/Style.css';
+import './styles/style.css';
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Login from "./Components/Login";
-import Register from "./Components/Register";
-import Dashboard from "./Components/Dashboard";
-import Messages from "./Components/Dashboard/Messages";
-import Comments from "./Components/Dashboard/Comments";
-import BookingRequest from "./Components/Dashboard/bookingRequest";
-import ListingProperties from "./Components/Dashboard/listingProperties";
-import FavoriteProperties from "./Components/Dashboard/favoriteProperties";
-import PurchasedProperty from "./Components/Dashboard/purchasedProperty";
-import PaymentInvoice from "./Components/Dashboard/paymentInvoice";
-import SubmitProperty from "./Components/Dashboard/submitProperty";
-import PersonalInformation from "./Components/Dashboard/personalInformation";
-import ProfileSettings from "./Components/Dashboard/profileSettings";
-import ChangePassword from "./Components/Dashboard/changePassword";
-import SocialMediaSettings from "./Components/Dashboard/socialMediaSettings";
-import SystemSettings from "./Components/Dashboard/systemSettings";
+import Login from "./pages/login";
+import Register from "./pages/register";
+import Dashboard from "./dashboard";
+import Messages from "./dashboard/Messages";
+import Comments from "./dashboard/Comments";
+import BookingRequest from "./dashboard/bookingRequest";
+import ListingProperties from "./dashboard/listingProperties";
+import FavoriteProperties from "./dashboard/favoriteProperties";
+import PurchasedProperty from "./dashboard/purchasedProperty";
+import PaymentInvoice from "./dashboard/paymentInvoice";
+import SubmitProperty from "./dashboard/submitProperty";
+import PersonalInformation from "./dashboard/personalInformation";
+import ProfileSettings from "./dashboard/profileSettings";
+import ChangePassword from "./dashboard/changePassword";
+import SocialMediaSettings from "./dashboard/socialMediaSettings";
+import SystemSettings from "./dashboard/systemSettings";
 
 
 function App() {
