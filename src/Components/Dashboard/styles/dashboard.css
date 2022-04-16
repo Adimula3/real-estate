@@ -168,6 +168,161 @@ ol {
     background: #ee6565;
     color: white;
 }
+
+/*------------message-dashboard styles--------------------*/
+.message-list li {
+    border-bottom: 2px solid #ececec;
+    padding: 20px 25px;
+}
+
+.message-list img {
+    width: 80px;
+}
+
+.message-list li .message-action{
+    opacity: 0;
+}
+
+.message-list li .middle-content {
+    width: 70%;
+}
+.middle-content .title .link{
+    text-decoration: none;
+    color: #4f4e4b;
+}
+.middle-content .title .link:hover{
+    color: #5ea51d;
+}
+
+.message-list li:hover .message-action {
+    opacity: 1;
+}
+
+.message-list li:hover,
+.message-list li.active {
+    background: white;
+;
+}
+.message-action .link{
+    color: #4f4e4b;
+    text-decoration: none;
+}
+.message-action .link:hover{
+    color: #5ea51d;
+    text-decoration: none;
+}
+
+/*------------bookingRequest-dashboard styles--------------------*/
+.items-list tr {
+    border-bottom: 10px solid #ececec;
+    background: white;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+
+.items-list tr td,
+.items-list tr th {
+    padding: 20px;
+    font-weight: 400;
+}
+
+.items-list .btn {
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+}
+
+/*------------listingProperties-dashboard styles--------------------*/
+.items-list .property-info h5 {
+    margin-top: 10px
+}
+.items-list td img {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.items-list .prop{
+    padding-top: 50px;
+}
+
+/*------------personalInformation-dashboard styles--------------------*/
+
+
+.dashboard-personal-info .form-box {
+
+}
+
+
+.dashboard-personal-info .phone-code select {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 80px;
+    height: 50px;
+    border: none
+}
+.dashboard-personal-info .phone-code input.form-control {
+    padding-left: 100px
+}
+
+.dashboard-personal-info .user-info img {
+    width: 90%;
+}
+
+.dashboard-personal-info .form-box .form-group .btn{
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 1px;
+    color: #ffffff;
+    width: 20%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    font-weight: 600;
+
+    box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+}
+
+/*------------changePassword-dashboard styles--------------------*/
+
+
+.dashboard-change-password .form-box .form-group .btn {
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 1px;
+    color: #ffffff;
+    width: 40%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    font-weight: 600;
+
+    box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+}
+
+/*------------socialMedia-dashboard styles--------------------*/
+
+.dashboard-social .form-box .form-group .btn {
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 1px;
+    color: #ffffff;
+    width: 40%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    font-weight: 600;
+
+    box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+}
+
 /*==========================================================
  Flaticon sizes
  ==========================================================*/

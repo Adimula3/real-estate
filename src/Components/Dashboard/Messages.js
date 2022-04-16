@@ -31,9 +31,9 @@ function Messages() {
                                                     <li className="active">
                                                         <div className="d-flex flex-wrap">
                                                             <div className="middle-content">
-                                                                <h5 className="title"><Link to="#" className="text-secondary hover-text-primary" href="#">Valeria.G.Thomas</Link> </h5>
+                                                                <h5 className="title"><Link to="#" className="link" href="#">Valeria.G.Thomas</Link> </h5>
                                                                 <p>Adipiscing viverra tincidunt gravida torquent vivamus venenatis sit bibendum quisque pharetra elementum maecenas</p>
-                                                                <div className="message-action mt-2"><Link to="#">View | </Link> <Link to="#">Reply | </Link> <Link to="#">Delete</Link></div>
+                                                                <div className="message-action mt-2"><Link to="#" className="link">View | </Link> <Link to="#" className="link">Reply | </Link> <Link to="#" className="link">Delete</Link></div>
                                                             </div>
                                                             <div className="date-time align-self-center ms-md-auto"><span>20 Jan, 2021</span><span>10:10 AM</span></div>
                                                         </div>
