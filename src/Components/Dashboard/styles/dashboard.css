@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+.page-wrapper {
+    overflow: hidden;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 15px;
+}
+.full-row {
+    position: relative;
+    width: 100%;
+    padding: 80px 0;
+}
+
+/*------------top-bar styles--------------------*/
+
+.top-bar {
+    width: 100%;
+    padding: 10px 20px 5px;
+    background: #22300f;
+}
+.top-bar .dashboard-top-left{
+    padding-top: 10px;
+    float: left;
+}
+
+.top-bar .dashboard-top-right{
+    float: right;
+}
+.top-bar .dashboard-top-left h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+.top-bar .dashboard-top-right img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.top-bar .dashboard-top-right .dropdown-toggle{
+    background: transparent;
+    border: 0px solid transparent;
+    font-size: 15px;
+    font-weight: 600;
+}
+.top-bar .dashboard-top-right .dropdown-toggle:hover {
+    background: transparent;
+    color: #8fc04e;
+    border: 0px solid transparent;
+}
+
+.collapse-dashboard {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*------------side-bar styles--------------------*/
+.dashboard-sidebar {
+    background: #22300f;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.dashboard-sidebar h6{
+    line-height: 25px;
+    font-weight: 700;
+}
+.dashboard-sidebar ul li .link {
+    padding: 10px 0px 10px 16px;
+    display: flex;
+    font-size: 13px;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.dashboard-sidebar ul li .link sup {
+    top: 6px
+}
+
+.dashboard-sidebar ul li.active .link::before {
+    position: absolute;
+    content: "";
+    top: 12px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #FFFFFF;
+    border-bottom: 10px solid transparent;
+}
+
+.dashboard-sidebar ul li .link:hover,
+.dashboard-sidebar ul li.active .link {
+    background-color: #50781a;
+    color: #FFFFFF;
+;
+}
+
+.text25 {
+    color: white;
+    font-size: 20px;
+}
+.dashboard-sidebar ul li{
+    list-style-type: none;
+}
+.dashboard-sidebar ul li a {
+    padding: 10px 0px 10px 5px;
+    display: flex;
+    position: relative;
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/*------------main-dashboard styles--------------------*/
+.dashboard-panel {
+    padding: 60px 40px;
+    overflow-x: scroll
+}
+.dashboard-panel .success {
+    border-left: 5px solid;
+    border-left-color: #67c339;
+    border-radius: 0
+}
+.dashboard-panel .success.alert {
+    border-left-color: #f46868;
+}
+.dashboard-panel .success .closebtn {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.panel-accordian::after {
+    content: "\f107";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: inherit;
+    font-size: 12px;
+    right: 20px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.ball1{
+    background: #dc69f1;
+    color: white;
+}
+.ball2{
+    background: #f1c643;
+    color: white;
+}
+.ball3{
+    background: #ee6565;
+    color: white;
+}
+/*==========================================================
+ Flaticon sizes
+ ==========================================================*/
+
+[class*="flaticon-"]::before {
+    margin-left: 0;
+}
+
+.flat-extra-large::before {
+    font-size: 80px;
+    line-height: 80px
+}
+
+.flat-large::before {
+    font-size: 60px;
+    line-height: 60px
+}
+
+.font-medium,
+.font-medium a,
+.font-medium i,
+.font-medium svg,
+.flat-medium::before {
+    font-size: 45px;
+    line-height: 45px
+}
+
+.font-small,
+.font-small a,
+.font-small i,
+.font-small svg,
+.flat-small::before {
+    font-size: 30px;
+    line-height: 30px
+}
+
+.flat-small [class^="flaticon-"]::before {
+    font-size: 21px;
+}
+
+.font-mini svg,
+.flat-mini::before {
+    font-size: 18px;
+    line-height: 18px
+}
+
+.icon-small {
+    font-size: 12px
+}
+
+/*============ Border colors ===============*/
+
+.nav-logo-with-bg .navbar-brand::before {
+    border-top-color: #FFFFFF !important;
+}
+
+.hover-border-white-nav .navbar-nav .nav-link.active,
+.hover-border-white-nav .navbar-nav .nav-link:hover,
+.hover-border-white-nav .navbar-nav .nav-link:focus {
+    border-color: #FFFFFF;
+}
+
+.check-submit label::before {
+    border-color: #cecece !important;
+}
+
+.icon-thumb-one i {
+    border-color: #ececec !important;
+}
+
+.left-arrow::before {
+    border-color: #ececec;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #444740;
+}
+
+.dashboard-panel .border-bottom-on-white {
+    border-bottom: 2px solid #ececec;
+}
+
+
+.text-primary,
+a.text-primary,
+.text-primary a,
+a.text-primary:focus,
+a.hover-text-primary:hover,
+.hover-text-primary:hover,
+.hover-text-primary a:hover {
+    color: #a8de62 !important
+}
+
+

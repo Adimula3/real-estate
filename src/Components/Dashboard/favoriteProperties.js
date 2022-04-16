@@ -4,7 +4,7 @@ import TopBar from "./components/topbar";
 import Sidebar from "./components/sidebar";
 import "./styles/dashboard.css";
 
-const SubmitProperty = () => {
+const FavoriteProperties = () => {
 
     return (
         <>
@@ -18,7 +18,7 @@ const SubmitProperty = () => {
                                 <Col lg={1} xl={2}>
                                     {/* sidebar section*/}
                                     <aside className="side-content">
-                                        <Sidebar pageName={"submit-property"}/>
+                                        <Sidebar pageName={"favorite-properties"}/>
                                     </aside>
                                 </Col>
                                 <Col lg={11} xl={10}>
@@ -26,7 +26,7 @@ const SubmitProperty = () => {
                                     <section className="main-content">
                                         <Row>
                                             <div className="dashboard-panel w-100">
-                                                <h4 className="text-secondary">Submit Property</h4>
+                                                <h4 className="text-secondary">Favorite Properties</h4>
                                             </div>
                                         </Row>
                                     </section>
@@ -42,4 +42,4 @@ const SubmitProperty = () => {
     );
 }
 
-export default SubmitProperty;
+export default FavoriteProperties;
