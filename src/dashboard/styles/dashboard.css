@@ -259,8 +259,13 @@ ol {
     left: 0px;
     bottom: 0px;
     width: 80px;
-    height: 50px;
+    height: 40px;
     border: none
+}
+.dashboard-personal-info .form-group textarea{
+    border: 2px solid #9ace56;
+    border-radius: 0px;
+    height: 200px;
 }
 .dashboard-personal-info .phone-code input.form-control {
     padding-left: 100px
@@ -284,6 +289,11 @@ ol {
     box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
     -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
     -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+}
+.dashboard-personal-info .user-info .btn {
+    margin-left: 5px;
+    background: #5ea51d;
+    border: #5ea51d;
 }
 
 /*------------changePassword-dashboard styles--------------------*/
@@ -323,6 +333,40 @@ ol {
     -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
 }
 
+/*------------submitProperty-dashboard styles--------------------*/
+.submitProperty .form-group textarea{
+    border: 2px solid #9ace56;
+    border-radius: 0px;
+    height: 200px;
+}
+.submitProperty .form-group .select {
+    border: 2px solid #8fc04e;
+    border-radius: 1px;
+    height: 40px;
+    color: #7d7d7d;
+    font-size: 14px;
+}
+.fileupload-label {
+    background: rgba(144, 201, 35, 0.05);
+    border: 2px dashed rgba(144, 201, 35, 0.7);
+    cursor: pointer;
+    padding: 70px 0;
+}
+.submitProperty .form-box .form-group .btn{
+    background: #5ea51d;
+    border: 1px solid #5ea51d;
+    border-radius: 1px;
+    color: #ffffff;
+    width: 60%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 45px;
+    font-weight: 600;
+
+    box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -webkit-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+    -moz-box-shadow: 2px 2px 3px 1px rgba(110,110,110,0.75);
+}
 /*==========================================================
  Flaticon sizes
  ==========================================================*/
